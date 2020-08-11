@@ -1,0 +1,23 @@
+using System;
+using System.Collections.Generic;
+
+public class Example
+{
+    public void Main() 
+    {
+       Person person = new Person();
+       person.Name = "Jd";
+       Console.WriteLine(person.Name);
+    }
+}
+
+public class Person
+{
+    private string name;
+    public string Name
+    {
+        get { return Name;}
+        set { name = value;}
+    }
+}
+
